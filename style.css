@@ -1,0 +1,80 @@
+/* General body and font styles */
+body {
+    font-family: Arial, sans-serif;
+        line-height: 1.6;
+            background-color: #f4f4f4;
+                color: #333;
+                    margin: 0;
+                        padding: 20px;
+                        }
+
+                        /* Header styling */
+                        header {
+                            background-color: #35424a;
+                                color: #ffffff;
+                                    padding: 20px;
+                                        text-align: center;
+                                            border-bottom: 3px solid #e8491d;
+                                                margin-bottom: 30px;
+                                                }
+
+                                                h1 {
+                                                    margin: 0;
+                                                    }
+
+                                                    /* Main content layout */
+                                                    main {
+                                                        max-width: 800px;
+                                                            margin: 0 auto;
+                                                            }
+
+                                                            section {
+                                                                background-color: #ffffff;
+                                                                    padding: 20px;
+                                                                        margin-bottom: 20px;
+                                                                            border-radius: 8px;
+                                                                                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                                                                                }
+
+                                                                                h2, h3 {
+                                                                                    color: #35424a;
+                                                                                        margin-bottom: 10px;
+                                                                                        }
+
+                                                                                        button {
+                                                                                            background-color: #e8491d;
+                                                                                                color: #ffffff;
+                                                                                                    border: none;
+                                                                                                        padding: 10px 15px;
+                                                                                                            cursor: pointer;
+                                                                                                                border-radius: 5px;
+                                                                                                                    transition: background-color 0.3s;
+                                                                                                                    }
+
+                                                                                                                    button:hover {
+                                                                                                                        background-color: #d83d0f;
+                                                                                                                        }
+
+                                                                                                                        /* Style for the loop-generated list */
+                                                                                                                        #loop-list {
+                                                                                                                            list-style-type: none;
+                                                                                                                                padding: 0;
+                                                                                                                                    margin-top: 10px;
+                                                                                                                                    }
+
+                                                                                                                                    #loop-list li {
+                                                                                                                                        padding: 8px 12px;
+                                                                                                                                            border-bottom: 1px solid #ddd;
+                                                                                                                                            }
+
+                                                                                                                                            #loop-list li:last-child {
+                                                                                                                                                border-bottom: none;
+                                                                                                                                                }
+
+                                                                                                                                                /* A special class to be toggled by JavaScript */
+                                                                                                                                                .highlight {
+                                                                                                                                                    background-color: #fffacd; /* A subtle yellow highlight */
+                                                                                                                                                        border-left: 5px solid #e8491d;
+                                                                                                                                                            transition: background-color 0.5s, border-left 0.5s;
+                                                                                                                                                            }
+                                                                                                                                                            
